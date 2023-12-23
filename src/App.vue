@@ -47,7 +47,7 @@
         @click="triggerInput"
         id="output"
         src="./assets/images/haerin_default.jpg"
-        class="heart img-placeholder absolute max-sm:w-[50px] sm:w-[150px] sm:h-[150px] top-20 left-8 rounded-full object-cover"
+        class="heart cursor-pointer img-placeholder absolute max-sm:w-[50px] sm:w-[150px] sm:h-[150px] top-20 left-8 rounded-full object-cover"
       />
       <p class="text-[10px] sm:ml-48 py-4 font-semibold max-w-[243px] relative">
         버니 클럽은 친구들과 함께 귀여운 작은 토끼와 놀러 가는 곳입니다. 혼자
