@@ -62,7 +62,7 @@
         <br />
         여기 서명함
         <br />
-        <span id="editName" @click="triggerText">해린(Haerin) </span>
+        <span id="editName" @click="triggerText">{{ name }} </span>
         <br />
         <span
           ref="elipsisContainer"
@@ -91,7 +91,7 @@ export default {
   name: "App",
   data() {
     return {
-      name: null,
+      name: "해린(Haerin)",
       isWindowOk: window.innerWidth > 768,
     };
   },
